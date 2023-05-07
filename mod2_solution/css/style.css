@@ -1,0 +1,175 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 10px;
+}
+
+p {
+    margin-top: 25px;
+    padding: 2px 10px 10px 4px;
+}
+
+.row {
+    width: 100%;
+}
+
+#menu {
+    padding: 15px;
+}
+
+.menu_items {
+    position: relative;
+    background-color: #5f9ea0;
+    border: 2px solid black;
+    margin: 0px 10px 20px 10px;
+}
+
+.menu_title {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    border: 1px solid black;
+    width: 35%;
+}
+
+.chicken {
+    background-color: #ffc0cb;
+}
+
+.beef {
+    background-color: #ff1111;
+}
+
+.sushi {
+    background-color: #808080;
+}
+
+/* MQ for Responsive Design */
+/*         Desktop          */
+
+@media (min-width: 992px) {
+    h1 {
+        margin: 30px;
+    }
+    
+    .col-lg-1 {
+        float:  left;
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        float:  left;
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        float:  left;
+        width: 25%;
+    }
+    .col-lg-4 {
+        float:  left;
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        float:  left;
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        float:  left;
+        width: 50%;
+    }
+    .col-lg-7 {
+        float:  left;
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        float:  left;
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        float:  left;
+        width: 75%;
+    }
+    .col-lg-10 {
+        float:  left;
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        float:  left;
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        float:  left;
+        width: 100%;
+    }
+}
+
+/*         Tablet          */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    h1 {
+        margin: 20px;
+    }
+
+    .sushi {
+        width: 20%;
+    }
+
+    .col-md-1 {
+        float:  left;
+        width: 8.33%;
+    }
+    .col-md-2 {
+        float:  left;
+        width: 16.66%;
+    }
+    .col-md-3 {
+        float:  left;
+        width: 25%;
+    }
+    .col-md-4 {
+        float:  left;
+        width: 33.33%;
+    }
+    .col-md-5 {
+        float:  left;
+        width: 41.66%;
+    }
+    .col-md-6 {
+        float:  left;
+        width: 50%;
+    }
+    .col-md-7 {
+        float:  left;
+        width: 58.33%;
+    }
+    .col-md-8 {
+        float:  left;
+        width: 66.66%;
+    }
+    .col-md-9 {
+        float:  left;
+        width: 75%;
+    }
+    .col-md-10 {
+        float:  left;
+        width: 83.33%;
+    }
+    .col-md-11 {
+        float:  left;
+        width: 91.66%;
+    }
+    .col-md-12 {
+        float:  left;
+        width: 100%;
+    }
+
+}
